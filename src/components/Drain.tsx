@@ -53,6 +53,7 @@ const Drain = () => {
 		} else {
 			console.log(data);
 		}
+		setLoading(false);
 	}
 
 	return (
