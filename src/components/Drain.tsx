@@ -23,6 +23,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import z from 'zod';
 import { Textarea } from './ui/textarea';
+import drainer from '../assets/drainer.svg';
 
 const validTokens = ['token1', 'token2', 'token3'];
 
@@ -63,7 +64,7 @@ const Drain = () => {
 						onClick={() => console.log('object')}>
 						<div>
 							<img
-								src={''}
+								src={drainer}
 								alt={''}
 								className="w-10 h-10 inline-block bg-muted p-0 rounded-md"
 							/>
